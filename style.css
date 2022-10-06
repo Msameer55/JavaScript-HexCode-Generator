@@ -1,0 +1,40 @@
+*, *::before, *::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.clr-btn{
+    background: black;
+    border-radius: 5px;
+    color: white;
+    padding: 15px;
+    text-decoration: none;
+    font-family: "poppins", sans-serif;
+    z-index: 2;
+}
+
+.clr-code{
+    position: absolute;
+    font-size: 15rem;
+    opacity: 0.08;
+    text-transform: uppercase;
+    font-weight: bolder;
+    pointer-events: none;
+    user-select: none;
+    transform: translateY(-50%);
+}
